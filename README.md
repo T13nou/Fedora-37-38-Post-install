@@ -1,7 +1,7 @@
 # Fedora
 Fedora Post-install configuration and applications installation
 
-This space is used for Fedora (updated for Fedora 37) post-install scripts.
+This space is used for Fedora (updated for Fedora 37 & 38 beta) post-install scripts.
 1) DNF Configuration
 2) RPM Fusion installation
 3) Codecs installation

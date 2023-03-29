@@ -72,26 +72,27 @@ sudo dnf install -y wine # TBC
 sudo dnf install ./heroic-*.x86_64.rpm
 https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.6.2/heroic-2.6.2.x86_64.rpm
 
-sudo flatpak install net.davidotek.pupgui2 # Proton-Up QT
-sudo flatpak install info.cemu.Cemu # Cemu Nintendo Wii U emulator
-sudo flatpak install org.yuzu_emu.yuzu # Yuzu Nintendo Switch emulator
+sudo flatpak -y install net.davidotek.pupgui2 # Proton-Up QT
+sudo flatpak -y install info.cemu.Cemu # Cemu Nintendo Wii U emulator
+sudo flatpak -y install org.yuzu_emu.yuzu # Yuzu Nintendo Switch emulator
 ```
 
 System Utils
 ```
 sudo dnf install -y kdiskmark
 sudo dnf install -y cpu-x
-sudo flatpak install flathub com.github.tchx84.Flatseal
+sudo flatpak -y install flathub com.github.tchx84.Flatseal
 ```
 
-
+Applications
+```
 sudo dnf install -y vlc
 sudo dnf install -y unzip p7zip p7zip-plugins unrar
 sudo dnf install -y libreoffice
-sudo flatpak install flathub io.github.mimbrero.WhatsAppDesktop
-sudo flatpak install flathub com.spotify.Client
-sudo flatpak install flathub com.microsoft.Edge
-sudo flatpak install flathub com.bitwarden.desktop
+sudo flatpak -y install flathub io.github.mimbrero.WhatsAppDesktop
+sudo flatpak -y install flathub com.spotify.Client
+sudo flatpak -y install flathub com.microsoft.Edge
+sudo flatpak -y install flathub com.bitwarden.desktop
 ```
 
 

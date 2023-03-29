@@ -51,10 +51,10 @@ flatpak update
 
 # GNOME Setup
 ```
-dnf install -y libgtop2-devel lm_sensors
+dnf install -y libgtop2-devel lm_sensors # Necessary dependancies for Vitals Gnome extension
 sudo flatpak install -y org.gnome.Extensions
 dnf install -y gnome-packagekit gnome-tweaks gnome-extensions-app gnome-shell-extension-dash-to-dock gnome-shell-extension-appindicator
-gsettings set  org.gnome.shell.overrides button-layout ':minimize,maximize,close'
+gsettings set org.gnome.desktop.wm.preferences button-layout 'menu:minimize,maximize,close' # Add Mnimize, Maximize and Close buttons to windows
 ```
 
 # Optional - Upgrade your devices firmware

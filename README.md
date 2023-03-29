@@ -70,7 +70,7 @@ sudo dnf install -y lutris
 sudo dnf install -y wine # TBC
 
 wget -c https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.6.2/heroic-2.6.2.x86_64.rpm
-sudo dnf install ./heroic-*.x86_64.rpm
+sudo dnf install -y ./heroic-*.x86_64.rpm
 
 
 sudo flatpak -y install net.davidotek.pupgui2 # Proton-Up QT

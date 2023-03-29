@@ -54,6 +54,7 @@ flatpak update
 dnf install -y libgtop2-devel lm_sensors
 sudo flatpak install -y org.gnome.Extensions
 dnf install -y gnome-packagekit gnome-tweaks gnome-extensions-app gnome-shell-extension-dash-to-dock gnome-shell-extension-appindicator
+gsettings set  org.gnome.shell.overrides button-layout ':minimize,maximize,close'
 ```
 
 # Optional - Upgrade your devices firmware

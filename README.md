@@ -51,6 +51,7 @@ flatpak update
 
 # GNOME Setup
 ```
+sudo flatpak -y org.gnome.Extensions
 dnf install -y gnome-packagekit gnome-tweaks gnome-extensions-app gnome-shell-extension-dash-to-dock gnome-shell-extension-appindicator gnome-shell-extension-vitals gnome-shell-extension-bing-wallpaper
 ```
 

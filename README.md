@@ -53,7 +53,7 @@ flatpak update
 ```
 dnf install -y libgtop2-devel lm_sensors
 sudo flatpak install -y org.gnome.Extensions
-dnf install -y gnome-packagekit gnome-tweaks gnome-extensions-app gnome-shell-extension-dash-to-dock gnome-shell-extension-appindicator gnome-shell-extension-vitals gnome-shell-extension-bing-wallpaper
+dnf install -y gnome-packagekit gnome-tweaks gnome-extensions-app gnome-shell-extension-dash-to-dock gnome-shell-extension-appindicator
 ```
 
 # Optional - Upgrade your devices firmware
@@ -98,7 +98,9 @@ sudo flatpak -y install flathub com.microsoft.Edge
 sudo flatpak -y install flathub com.bitwarden.desktop
 ```
 
+# Manual steps
 
+Install Gnome Extensions : Vitals & Bing Wallpaper
 
 
 

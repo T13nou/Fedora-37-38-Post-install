@@ -62,6 +62,12 @@ fwupdmgr refresh
 fwupdmgr get-updates && fwupdmgr update
 ```
 
+# Optional - AMD Mesa Drivers (incl h264/h265 decoding)
+```
+sudo dnf install --enablerepo=rpmfusion-free-updates-testing mesa-va-drivers-freeworld
+sudo dnf swap --enablerepo=rpmfusion-free-updates-testing mesa-va-drivers mesa-va-drivers-freeworld
+```
+
 # Optional - Add your favorite apps with RPM & Flatpak
 
 Gaming section

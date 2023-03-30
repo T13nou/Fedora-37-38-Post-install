@@ -19,7 +19,6 @@ DNF Configuration
 ```
 echo "fastestmirror=true" >> /etc/dnf/dnf.conf # Rescan mirrors for fastest pick
 echo "max_parallel_downloads=10" >> /etc/dnf/dnf.conf # increase package parallel downloads 
-echo "countme=false" >> /etc/dnf/dnf.conf # doesn't count your system in repository statistics
 ```
 
 # Clean Cache DNF
